@@ -9,10 +9,10 @@ public class practice {
         name = br.readLine();
         System.out.print("학번을 입력해주세요: ");
         number = br.readLine();
+      
         System.out.print("대학교를 입력해주세요: ");
         university = br.readLine();
 
         System.out.println("\n<출력>\n이름: " + name + "\n학번: " + number + "\n대학교: " + university);
-        
     }
 }
